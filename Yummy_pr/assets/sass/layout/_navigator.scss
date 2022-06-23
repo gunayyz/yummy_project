@@ -1,0 +1,38 @@
+.my-nav{
+    margin:10px;
+    background-color: white !important;
+    .nav-logo{
+        font-family: $primary-font;
+        font-weight: 700px ;
+        font-size: 28px ;
+        span{
+            color:$third-color ;
+        }
+    }
+    .mynav-items{
+        // display: flex;
+        // justify-content:end;
+ 
+        font-size:16px ;
+        font-family: $primary-font;
+
+        font-weight:$secondary-weight ;
+        color:$primary-color ;
+    }
+    .mynav-items{
+        margin-right: 15px;
+        &a:hover{
+            text-decoration: underline ;
+            text-decoration-color: $third-color ;
+        }
+    }
+    .my-button{
+        margin-left: 50px;
+        &a:hover{
+            background-color: rgba(206, 18, 18,0.1);
+        }
+        
+        border-radius: 25%;
+    }
+}
+

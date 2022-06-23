@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Inter:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.my-nav {
+  margin: 10px;
+  background-color: white !important;
+}
+
+.my-nav .nav-logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 700px;
+  font-size: 28px;
+}
+
+.my-nav .nav-logo span {
+  color: #ce1212;
+}
+
+.my-nav .mynav-items {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #929191;
+}
+
+.my-nav .mynav-items {
+  margin-right: 15px;
+}
+
+.my-nav .mynav-itemsa:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ce1212;
+          text-decoration-color: #ce1212;
+}
+
+.my-nav .my-button {
+  margin-left: 50px;
+  border-radius: 25%;
+}
+
+.my-nav .my-buttona:hover {
+  background-color: rgba(206, 18, 18, 0.1);
+}
+
+#entry-to-yummy {
+  background-color: #EEEEEE;
+  height: 75vh;
+}
+
+#entry-to-yummy h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 64px;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+
+#entry-to-yummy p {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #929191;
+}
+
+#entry-to-yummy .menu-img {
+  height: 526px;
+  width: 526px;
+}
+
+#entry-to-yummy .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+#entry-to-yummy .button {
+  color: white;
+  background-color: #ce1212;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px;
+  margin: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#entry-to-yummy .video::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f144";
+}
